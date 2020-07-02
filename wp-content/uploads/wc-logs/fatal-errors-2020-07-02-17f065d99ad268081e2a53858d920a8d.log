@@ -1,0 +1,36 @@
+2020-07-02T08:14:12+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-includes\class-http.php:629
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(662): WP_Http::get('http://demo.ave...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(599): MSP_Importer->fetch_remote_file('http://demo.ave...', '/2012/10')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(555): MSP_Importer->download_media('/2012/10/13.jpg')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(502): MSP_Importer->fetch_all_medias()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(456): MSP_Importer->import_add_sliders(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\cla in C:\xampp\htdocs\wordpress\wp-includes\class-http.php on line 629
+
+2020-07-02T08:15:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-includes\class-http.php:629
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(662): WP_Http::get('http://demo.ave...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(599): MSP_Importer->fetch_remote_file('http://demo.ave...', '/2012/10')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(555): MSP_Importer->download_media('/2012/10/4.jpg')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(502): MSP_Importer->fetch_all_medias()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(456): MSP_Importer->import_add_sliders(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\clas in C:\xampp\htdocs\wordpress\wp-includes\class-http.php on line 629
+
+2020-07-02T08:16:48+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-includes\class-http.php:629
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(662): WP_Http::get('http://demo.ave...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(599): MSP_Importer->fetch_remote_file('http://demo.ave...', '/2012/10')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(555): MSP_Importer->download_media('/2012/10/2.jpg')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(502): MSP_Importer->fetch_all_medias()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(456): MSP_Importer->import_add_sliders(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\clas in C:\xampp\htdocs\wordpress\wp-includes\class-http.php on line 629
+
+2020-07-02T08:28:15+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\wordpress\wp-includes\class-http.php:629
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(662): WP_Http::get('http://demo.ave...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(599): MSP_Importer->fetch_remote_file('http://demo.ave...', '/2012/10')
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(555): MSP_Importer->download_media('/2012/10/8.jpg')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(502): MSP_Importer->fetch_all_medias()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\classes\class-msp-importer.php(456): MSP_Importer->import_add_sliders(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\master-slider\admin\includes\clas in C:\xampp\htdocs\wordpress\wp-includes\class-http.php on line 629
+
